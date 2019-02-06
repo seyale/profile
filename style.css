@@ -92,6 +92,7 @@ td {
   padding: 10px 20px 10px 20px;
   border-radius: 2px;
   font-weight: 600;
+  line-height: 200%;
 }
 
 .btn_brown:hover {
@@ -100,6 +101,7 @@ td {
   padding: 10px 20px 10px 20px;
   border-radius: 2px;
   font-weight: 600;
+  line-height: 200%;
 }
 
 .inline_list li{
