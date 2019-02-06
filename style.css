@@ -75,7 +75,7 @@ td {
   text-align: center;
   position: fixed;
   width: 50px;
-  top: 40px;
+  top: 50%;
 }
 
 .inline-sidebar {
@@ -86,8 +86,7 @@ td {
 
 .sidebar-title {
   text-align: center;
-  position: fixed
-  top: 10;
+  top: 40;
 }
 
 .rotate {
@@ -112,18 +111,20 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 @media (max-width: 540px) {
   .container {
     width: 650px;
-    margin-top: 40px;
     }
   }
 
 #page-content {
-  margin-left: 50px
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
 }
 
 @media (max-width: 540px) {
   .card {
     background: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
   }
 }
