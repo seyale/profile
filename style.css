@@ -1,0 +1,121 @@
+/* CSS */
+
+body {
+  background: rgb(255, 255, 255);
+  font-family: 'Helvetica Neue';
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(30, 30, 30);
+}
+
+h1 {
+  color: rgb(201, 185, 162);
+  font-size: 24;
+}
+
+h2 {
+  line-height: 75%;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Courier New';
+  font-color: rgb(201, 185, 162);
+  font-weight: lighter
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 200;
+  font-size: 16;
+}
+
+p {
+  line-height: 150%;
+}
+
+a:hover {
+  color: rgb(201, 185, 162);
+  text-decoration: underline;
+}
+
+a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  padding: 0px;
+}
+
+td {
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container {
+   width: 650px;
+   margin: 30px auto;
+}
+
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#img_profile {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.btn_brown {
+  background: rgb(201, 185, 162);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.btn_brown:hover {
+  background: rgb(100, 100, 100);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.inline_list li{
+  display: inline-block;
+}
+
+.fab, .fas {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.img_greyscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
