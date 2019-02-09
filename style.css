@@ -46,7 +46,7 @@ p {
   font-size: 14px;
 }
 
-a {
+a:hover {
   color: rgb(201, 185, 162);
 }
 
@@ -120,7 +120,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   margin-right: 40px;
 }
 
-  .card {
+.card {
     background: rgb(255, 255, 255);
     padding: 40px;
     margin: 20px;
